@@ -1,0 +1,71 @@
+body{
+    background: #327fe4;
+}
+.titulo{
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.secondPart{
+    background: rgb(182, 182, 182);
+    margin: 5% 10% 5% 10%;
+    padding-left: 30%; 
+    padding-top: 2%; 
+    padding-bottom: 2%; 
+    align-content: center;
+    border-radius: 1rem;
+}
+#agregarTxt{
+    font-family: 'Merriweather', serif;
+    
+}
+
+#eraseBtn{
+    font-family: 'Oswald', sans-serif;
+    
+    
+    
+    background-color: rgb(8, 164, 255);
+    color: black;
+    font-size: 20px;
+
+    border-radius: .2rem;
+}
+#modifyBtn{
+    font-family: 'Oswald', sans-serif;
+    
+    
+    
+    background-color: rgb(8, 164, 255);
+    color: black;
+    font-size: 20px;
+
+    border-radius: .2rem;
+}
+#listaTxt{
+    font-family: 'Merriweather', serif;
+}
+#tareaIn-btn{
+    font-family: 'Oswald', sans-serif;
+    
+    
+    
+    background-color: rgb(8, 164, 255);
+    color: black;
+    font-size: 20px;
+
+    border-radius: .2rem;
+    
+    
+}
+
+.showList{
+    margin: 5% 10% 10% 10%;
+    background: rgb(182, 182, 182);
+}
+
+dt{
+    border: .2rem solid black;
+    padding: .2rem 0rem .2rem 0;
+    background: white;
+}

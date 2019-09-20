@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald|Permanent+Marker&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
+    <title>ToDoList</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    
+</head>
+<body>
+
+    <header>
+        <div class="titulo">
+            <h1>To Do List</h1>
+        </div>
+    </header>
+
+    <div class="secondPart">
+            <h1 id="agregarTxt">Agregar Tareas</h1>
+            <input id="tareaIn-txt" type="text" id="todo-txt">
+            <input id="tareaIn-btn" type="button" value="Add" onclick="addToList()">
+    </div>
+
+    
+    <div class="showList">
+        <div class="tituloLista">
+            <h1 id="listaTxt">Lista</h1>
+            <input id="eraseBtn" type="button" value="Borrar" onclick="borrar()">
+            <input type="text" name="textoModify" id="modifyTxt">
+            <input id="modifyBtn" type="button" value="modify" onclick="modify()">
+        </div>
+        <div class="listElement">
+            <dl id="listaToDo">
+            </dl>
+        </div>
+    </div>
+
+
+    <script src="JS/script.js"></script>
+</body>
+</html>
